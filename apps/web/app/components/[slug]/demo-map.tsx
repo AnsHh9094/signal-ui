@@ -58,4 +58,6 @@ export const demoMap: Record<string, React.ComponentType> = {
   "diff-viewer": dynamic(() => import("@/registry/new-york/ui/diff-viewer.demo").then((mod) => mod.DiffViewerDefault)),
   "copilot-sidebar": dynamic(() => import("@/registry/new-york/ui/copilot-sidebar.demo").then((mod) => mod.CopilotSidebarDefault)),
   "multi-agent-board": dynamic(() => import("@/registry/new-york/ui/multi-agent-board.demo").then((mod) => mod.MultiAgentBoardDefault)),
+  "cyber-grid": dynamic(() => import("@/registry/new-york/ui/cyber-grid.demo").then((mod) => mod.CyberGridDefault)),
+  "route-tracker": dynamic(() => import("@/registry/new-york/ui/route-tracker.demo").then((mod) => mod.RouteTrackerDefault)),
 }

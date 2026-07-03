@@ -883,6 +883,35 @@
           "type": "registry:ui"
         }
       ]
+    },
+    {
+      "name": "cyber-grid",
+      "type": "registry:ui",
+      "title": "Cyber Grid",
+      "description": "Interactive WebGL background grid that warps around your cursor using Three.js.",
+      "dependencies": ["three"],
+      "devDependencies": ["@types/three"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/cyber-grid.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "route-tracker",
+      "type": "registry:ui",
+      "title": "Route Tracker",
+      "description": "Premium route and flight tracker widget featuring an interactive slider and led stats.",
+      "dependencies": ["framer-motion", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/route-tracker.tsx",
+          "type": "registry:ui"
+        }
+      ]
     }
   ]
 }

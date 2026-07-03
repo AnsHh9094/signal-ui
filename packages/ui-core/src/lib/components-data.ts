@@ -470,5 +470,29 @@ export const componentsData: ComponentData[] = [
       { name: "agents", type: "Agent[]", default: "[]", description: "Lanes tracking agent statuses and progress metrics." },
       { name: "boardTitle", type: "string", default: "'Active Agent Swarm'", description: "Board header description." }
     ]
+  },
+  {
+    name: "Cyber Grid",
+    slug: "cyber-grid",
+    description: "Interactive WebGL background grid that warps around your cursor using Three.js.",
+    category: "Effects",
+    props: [
+      { name: "gridDensity", type: "number", default: "10.0", description: "Density of the grid lines." },
+      { name: "speed", type: "number", default: "0.2", description: "Pulsing animation speed multiplier." },
+      { name: "primaryColor", type: "[number, number, number]", default: "[0.1, 0.5, 1.0]", description: "RGB primary grid line color." },
+      { name: "secondaryColor", type: "[number, number, number]", default: "[1.0, 0.2, 0.8]", description: "RGB active pulsing glow color." }
+    ]
+  },
+  {
+    name: "Route Tracker",
+    slug: "route-tracker",
+    description: "Premium route and flight tracker widget featuring an interactive slider and led stats.",
+    category: "Data Display",
+    props: [
+      { name: "fromCode", type: "string", default: "'YYZ'", description: "Origin airport/city code." },
+      { name: "toCode", type: "string", default: "'HND'", description: "Destination airport/city code." },
+      { name: "eta", type: "string", default: "'2:15 PM'", description: "Estimated time of arrival." },
+      { name: "initialProgress", type: "number", default: "35", description: "Starting progress percentage (0-100)." }
+    ]
   }
 ]
