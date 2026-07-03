@@ -1,0 +1,888 @@
+{
+  "name": "signal-ui",
+  "homepage": "https://signalui.dev",
+  "items": [
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Displays a button or a component that looks like a button.",
+      "dependencies": ["class-variance-authority", "@radix-ui/react-slot"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Displays a badge or a component that looks like a badge.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/badge.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Displays a card with header, content, and footer.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "title": "Input",
+      "description": "Displays a form input field or a component that looks like an input field.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/input.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "title": "Label",
+      "description": "Renders an accessible label associated with controls.",
+      "dependencies": ["@radix-ui/react-label", "class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/label.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "An image element with a fallback for representing the user.",
+      "dependencies": ["@radix-ui/react-avatar", "class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/avatar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "dependencies": ["@radix-ui/react-checkbox", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/checkbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "A window overlaid on either the primary window or another dialog window.",
+      "dependencies": ["@radix-ui/react-dialog", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "type": "registry:ui",
+      "title": "Form",
+      "description": "Building forms with React Hook Form and Zod.",
+      "dependencies": ["@radix-ui/react-label", "@radix-ui/react-slot", "@hookform/resolvers", "zod", "react-hook-form"],
+      "registryDependencies": ["label"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/form.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "A set of layered sections of content.",
+      "dependencies": ["@radix-ui/react-tabs"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/tabs.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "Displays a list of options for the user to pick from.",
+      "dependencies": ["@radix-ui/react-select", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/select.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "A responsive table component.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/table.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "title": "Toast",
+      "description": "A succinct message that is displayed temporarily.",
+      "dependencies": ["@radix-ui/react-toast", "class-variance-authority", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/toast.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "title": "Tooltip",
+      "description": "A popup that displays information related to an element.",
+      "dependencies": ["@radix-ui/react-tooltip"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/tooltip.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "title": "Dropdown Menu",
+      "description": "Displays a menu to the user.",
+      "dependencies": ["@radix-ui/react-dropdown-menu", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/dropdown-menu.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "title": "Accordion",
+      "description": "A vertically stacked set of interactive headings that each reveal a section of content.",
+      "dependencies": ["@radix-ui/react-accordion", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/accordion.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "title": "Alert",
+      "description": "Displays a callout for user attention.",
+      "dependencies": ["class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/alert.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "title": "Textarea",
+      "description": "Displays a form textarea.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/textarea.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "title": "Slider",
+      "description": "An input where the user selects a value from within a given range.",
+      "dependencies": ["@radix-ui/react-slider"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/slider.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "title": "Toggle",
+      "description": "A two-state button that can be either on or off.",
+      "dependencies": ["@radix-ui/react-toggle"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/toggle.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "title": "Switch",
+      "description": "A control that allows the user to toggle between checked and not checked.",
+      "dependencies": ["@radix-ui/react-switch"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/switch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "title": "Progress",
+      "description": "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+      "dependencies": ["@radix-ui/react-progress"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/progress.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "Visually or semantically separates content.",
+      "dependencies": ["@radix-ui/react-separator"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/separator.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "title": "Skeleton",
+      "description": "Use to show a placeholder while content is loading.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/skeleton.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "title": "Scroll Area",
+      "description": "Augments native scroll functionality for custom, cross-browser styling.",
+      "dependencies": ["@radix-ui/react-scroll-area"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/scroll-area.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "title": "Breadcrumb",
+      "description": "Displays the path to the current resource using a hierarchy of links.",
+      "dependencies": ["@radix-ui/react-slot", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/breadcrumb.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "hover-card",
+      "type": "registry:ui",
+      "title": "Hover Card",
+      "description": "For sighted users to preview content available behind a link.",
+      "dependencies": ["@radix-ui/react-hover-card"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/hover-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "title": "Collapsible",
+      "description": "An interactive component which expands/collapses a panel.",
+      "dependencies": ["@radix-ui/react-collapsible"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/collapsible.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "drawer",
+      "type": "registry:ui",
+      "title": "Drawer",
+      "description": "A drawer component for React.",
+      "dependencies": ["vaul"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/drawer.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "title": "Aspect Ratio",
+      "description": "Displays content within a desired ratio.",
+      "dependencies": ["@radix-ui/react-aspect-ratio"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/aspect-ratio.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "title": "Calendar",
+      "description": "A date field component that allows users to enter and edit date.",
+      "dependencies": ["react-day-picker", "date-fns", "lucide-react"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/calendar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "title": "Popover",
+      "description": "Displays rich content in a portal, triggered by a button.",
+      "dependencies": ["@radix-ui/react-popover"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/popover.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "carousel",
+      "type": "registry:ui",
+      "title": "Carousel",
+      "description": "A carousel with motion and swipe built using Embla.",
+      "dependencies": ["embla-carousel-react", "lucide-react"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/carousel.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "title": "Radio Group",
+      "description": "A set of checkable buttons—known as radio buttons—where no more than one of the buttons can be checked at a time.",
+      "dependencies": ["@radix-ui/react-radio-group", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/radio-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "title": "Navigation Menu",
+      "description": "A collection of links for navigating websites.",
+      "dependencies": ["@radix-ui/react-navigation-menu", "lucide-react", "class-variance-authority"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/navigation-menu.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "title": "Menubar",
+      "description": "A visually persistent menu common in desktop applications.",
+      "dependencies": ["@radix-ui/react-menubar", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/menubar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:ui",
+      "title": "Context Menu",
+      "description": "Displays a menu to the user—such as a set of actions or functions—triggered by a button.",
+      "dependencies": ["@radix-ui/react-context-menu", "lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/context-menu.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toolbar",
+      "type": "registry:ui",
+      "title": "Toolbar",
+      "description": "A container for grouping a set of controls, such as buttons, toggle groups or dropdown menus.",
+      "dependencies": ["@radix-ui/react-toolbar"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/toolbar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "text-scramble",
+      "type": "registry:ui",
+      "title": "Text Scramble",
+      "description": "A text component that scrambles characters on hover or mount.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/text-scramble.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "typewriter",
+      "type": "registry:ui",
+      "title": "Typewriter",
+      "description": "A text component that types out text with a blinking cursor.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/typewriter.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "animated-gradient-text",
+      "type": "registry:ui",
+      "title": "Animated Gradient Text",
+      "description": "A fluid moving gradient across text.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/animated-gradient-text.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "border-glow",
+      "type": "registry:ui",
+      "title": "Border Glow",
+      "description": "An animated glow around a container.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/border-glow.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "spotlight-card",
+      "type": "registry:ui",
+      "title": "Spotlight Card",
+      "description": "A card effect with a subtle spotlight that follows the mouse.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/spotlight-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "particles",
+      "type": "registry:ui",
+      "title": "Particles",
+      "description": "A floating interactive particle canvas background.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/particles.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "prompt-input",
+      "type": "registry:ui",
+      "title": "Prompt Input",
+      "description": "A multi-line auto-expanding textarea for AI prompt input.",
+      "dependencies": ["react-textarea-autosize", "lucide-react"],
+      "registryDependencies": ["button", "tooltip"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/prompt-input.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chat-bubble",
+      "type": "registry:ui",
+      "title": "Chat Bubble",
+      "description": "A chat message bubble with markdown support and avatars.",
+      "dependencies": ["react-markdown", "remark-gfm", "lucide-react"],
+      "registryDependencies": ["avatar", "button"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/chat-bubble.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "agent-reasoning-trace",
+      "type": "registry:ui",
+      "title": "Agent Reasoning Trace",
+      "description": "An expandable accordion-style component showing AI thought process.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["accordion"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/agent-reasoning-trace.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tool-call-card",
+      "type": "registry:ui",
+      "title": "Tool Call Card",
+      "description": "A sleek card displaying an AI tool call with its arguments.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/tool-call-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "token-meter",
+      "type": "registry:ui",
+      "title": "Token Meter",
+      "description": "A progress bar showing prompt and completion token usage.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/token-meter.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "model-picker",
+      "type": "registry:ui",
+      "title": "Model Picker",
+      "description": "A dropdown styled for picking AI models.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["popover", "command", "button"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/model-picker.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "hero-section",
+      "type": "registry:block",
+      "title": "Hero Section",
+      "description": "A massive, beautiful hero section with animated gradient text and particles.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["animated-gradient-text", "particles", "button"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/blocks/hero-section.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "pricing-bento",
+      "type": "registry:block",
+      "title": "Pricing Bento",
+      "description": "A sleek 3-tier pricing section with a glowing Pro card.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["card", "button", "border-glow"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/blocks/pricing-bento.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "testimonial-carousel",
+      "type": "registry:block",
+      "title": "Testimonial Carousel",
+      "description": "A beautiful scrolling carousel of user reviews.",
+      "dependencies": [],
+      "registryDependencies": ["carousel", "card", "avatar"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/blocks/testimonial-carousel.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "feature-bento",
+      "type": "registry:block",
+      "title": "Feature Bento",
+      "description": "A bento grid layout showcasing core features with spotlight glowing cards.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["spotlight-card"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/blocks/feature-bento.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "logo-ticker",
+      "type": "registry:block",
+      "title": "Logo Ticker",
+      "description": "An infinitely scrolling horizontal strip of partner/customer logos.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/blocks/logo-ticker.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "cta-banner",
+      "type": "registry:block",
+      "title": "CTA Banner",
+      "description": "A premium full-width call-to-action banner with deep gradient background.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["button", "animated-gradient-text"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/blocks/cta-banner.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "footer-block",
+      "type": "registry:block",
+      "title": "Footer Block",
+      "description": "A multi-column footer with logo, links, newsletter sign-up and social icons.",
+      "dependencies": [],
+      "registryDependencies": ["input", "button"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/blocks/footer-block.tsx",
+          "type": "registry:block"
+        }
+      ]
+    },
+    {
+      "name": "streaming-text",
+      "type": "registry:ui",
+      "title": "Streaming Text",
+      "description": "Text that renders token-by-token with a blinking cursor, simulating an LLM streaming response.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/streaming-text.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "citation-panel",
+      "type": "registry:ui",
+      "title": "Citation Panel",
+      "description": "A collapsible side panel that displays numbered source citations with titles, URLs, and relevance scores.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/citation-panel.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "voice-waveform",
+      "type": "registry:ui",
+      "title": "Voice Waveform",
+      "description": "An animated audio waveform visualizer using CSS transitions.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/voice-waveform.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "diff-viewer",
+      "type": "registry:ui",
+      "title": "Diff Viewer",
+      "description": "A side-by-side or unified diff viewer that highlights added/removed lines.",
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/diff-viewer.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "copilot-sidebar",
+      "type": "registry:ui",
+      "title": "Copilot Sidebar",
+      "description": "A slide-out sidebar panel with a chat interface inside.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["button", "input"],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/copilot-sidebar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "multi-agent-board",
+      "type": "registry:ui",
+      "title": "Multi-Agent Board",
+      "description": "A kanban-style board showing multiple AI agents working on tasks simultaneously.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "packages/registry/new-york/ui/multi-agent-board.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}
